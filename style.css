@@ -19,3 +19,7 @@ perspective: 800px;
     animation-timing-function:ease-in;
     }
 }
+
+.navbar-brand {
+    padding-left: 2%;
+}
