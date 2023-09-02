@@ -23,3 +23,8 @@ perspective: 800px;
 .navbar-brand {
     padding-left: 2%;
 }
+body {
+  background-image: url(img/kotwindowsteambigger.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
