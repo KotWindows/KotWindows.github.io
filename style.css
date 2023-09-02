@@ -28,3 +28,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+nav:hover {
+  background-image: linear-gradient(to top, rgba(255,0,0,0), #0d6efd);;
+}
+h2 {
+  margin-top: 15%;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #0d6efd;
+  display: inline-block;
+  text-shadow: 2px 2px #004ec1;
+  font-weight: 700;
+}
+.titre {
+  margin-left: 10%;
+  padding-right: 0.9%;
+}
+.word {
+  margin-left: -0.7%;
+  
+}
