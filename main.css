@@ -3786,6 +3786,7 @@ textarea.form-control-lg {
   color: var(--bs-nav-link-color);
   text-decoration: none;
   background: none;
+  font-weight: 600;
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4030,6 +4031,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
+
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
@@ -4124,7 +4126,13 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 640px) {
+  .nav-link {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 400px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
