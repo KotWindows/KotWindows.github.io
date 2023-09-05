@@ -70,11 +70,11 @@ h2 {
   }
 }
 
-.desc {
+.desc, .parent {
   background-color: white;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 2% 3% 48% 3%;
+  padding: 2% 3% 2% 3%;
 }
 p {
   font-size: 1.05em;
@@ -100,4 +100,21 @@ h5 {
 }
 .text {
   width: 60%;
+}
+.desc::after, .desc::before, .parent::before , .parent::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+.photo {
+  display: block;
+  width: 200px;
+  margin-right: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#rom, #ced {
+  float: left;
+}
+#ced {
+  width: 300px;
 }
