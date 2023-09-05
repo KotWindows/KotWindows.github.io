@@ -1,4 +1,4 @@
-var words = ['sommes le Kot Windows', 'poussons ce délire beaucoup trop loin', 'aimons l\'argent', 'aimons Windows', 'sommes un peu con'],
+var words = ['sommes le Kot Windows', 'poussons ce délire beaucoup trop loin', 'aimons l\'argent', 'aimons Windows', 'sommes un peu cons','vendons vos données'],
     part,
     i = 0,
     offset = 0,
