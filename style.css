@@ -109,12 +109,22 @@ h5 {
 .photo {
   display: block;
   width: 200px;
-  margin-right: 2%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#rom, #ced {
+#rom, #ced, #dada {
   float: left;
+  margin-right: 2%;
 }
-#ced {
+#jac, #mousse, #antho {
+  float: right;
+  margin-left: 2%;
+}
+#ced, #dada {
   width: 300px;
+}
+.d_jacques, .d_alex, .d_antho {
+  text-align: right;
+}
+#jac {
+  width: 250px;
 }
