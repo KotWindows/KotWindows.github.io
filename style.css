@@ -35,7 +35,6 @@ nav:hover {
   background-image: linear-gradient(to top, rgba(255,0,0,0), #0d6efd);;
 }
 h2 {
-  margin-top: 15%;
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
@@ -43,6 +42,9 @@ h2 {
   display: inline-block;
   text-shadow: 2px 2px #004ec1;
   font-weight: 700;
+}
+.titre, .word {
+  margin-top: 15%;
 }
 .titre {
   margin-left: 10%;
@@ -66,4 +68,36 @@ h2 {
   .spin {
     width: 100px;
   }
+}
+
+.desc {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2% 3% 48% 3%;
+}
+p {
+  font-size: 1.05em;
+  margin-top: 1%;
+  text-align: justify;
+}
+.fact, .text {
+  float: left;
+
+}
+.fact {
+  width: 35%;
+  margin-top: 5%; 
+  margin-left: 4%;
+  padding: 1% 3% 1% 1%;
+  background-color: #63a2ff33;
+}
+h5 {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d6efd;
+  font-weight: 700;
+}
+.text {
+  width: 60%;
 }

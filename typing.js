@@ -6,7 +6,7 @@ var words = ['sommes le Kot Windows', 'poussons ce délire beaucoup trop loin', 
     forwards = true,
     skip_count = 0,
     skip_delay = 15,
-    speed = 60;
+    speed = 45;
 var wordflick = function () {
   setInterval(function () {
     if (forwards) {
